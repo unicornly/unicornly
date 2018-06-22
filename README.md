@@ -1,15 +1,15 @@
-<p align="center"><img src="/media/unicornly.png"></p>
+<p align="center"><img src="media/unicornly.png"></p>
 
 # Unicornly
 
-![Img](https://png.icons8.com/ios/16/000000/geography-filled.png) [unicorly.js.org](https://unicorn ly.js.org)
+![Img](https://png.icons8.com/ios/16/000000/geography-filled.png) [unicorly.js.org](https://unicornly.js.org)
 
 > Magic really exist 🦄
 
 # Installation
 
 ```
-$ npm i unicornly 
+$ npm i unicornly
 ```
 
 # Usage
@@ -29,6 +29,6 @@ const unicornly = require('unicornly');
 **Unicornly** 🦄  &nbsp; © [MIT License](https://github.com/Unicornly/unicornly/blob/master/LICENSE)
 
 <p align="center">
-	<img src="/media/unicornly.png" width="7%" height="7%"><br>
+	<img src="media/unicornly.png" width="7%" height="7%"><br>
 	<small>2018 © <b>Unicornly</b></small>
 </p>
