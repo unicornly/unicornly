@@ -50,6 +50,7 @@ time, mark, audio, video {
 
 :root {
 	--pink: #F806E7;
+	--purple: #7A0797;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -623,8 +624,8 @@ font-family: Arial;
 }
 
 .form .subscribe-form .submit-button:hover {
-  border-color: #1a9e4c;
-    background-color: #1a9e4c;
+  border-color: #B109DA;
+    background-color: var(--purple);
   -webkit-transition: 500ms;
 	-moz-transition: 500ms;
   transition: 500ms;
@@ -647,9 +648,8 @@ font-family: Arial;
 -------------- Image Bg Styling Starts ----------------
 ------------------------------------------------------*/
 
-
 .image-bg .hero-section {
-	background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(../images/image-bg.jpg) no-repeat center center;
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url() no-repeat center center;
 	background-size: cover;
 	padding: 150px 0 100px 0;
 }
@@ -667,16 +667,11 @@ font-family: Arial;
 
 
 
-
-
-
-
-
-
 /* ------------ Signup Hero Section ------------ */
 
 .signup .hero-section {
-	background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(../images/app_bg.jpg) no-repeat center center;
+	background: transparent;
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.9), var(--pink)), url() no-repeat center center;
 	background-size: cover;
 	padding: 150px 0 100px 0;
 }
@@ -1356,7 +1351,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 }
 
 .feature-sub {
-	background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url(../images/image-bg.jpg) no-repeat center center;
+	background: linear-gradient(to right, var(--pink), black), url() no-repeat center center;
 	background-size: cover;
 	padding: 150px 0 150px 0;
 }
@@ -1782,7 +1777,7 @@ padding: 120px 10px 50px 350px;
 .cta-sub {
 	padding-top: 150px;
 	padding-bottom: 150px;
-	background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(../images/cta_bg.jpg) no-repeat center center;
+	background: linear-gradient(to left, var(--pink), rgba(0, 0, 0, 0.9)), url() no-repeat center center;
 	background-size: cover;
 }
 
@@ -2009,7 +2004,7 @@ font-size: 12px;
 
 
 .back-to-top {
-	background: #ea77e2;
+	background: var(--purple);
 	margin: 0;
 	position: fixed;
 	bottom: 30px;
