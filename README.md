@@ -1,4 +1,4 @@
-<p align="center"><img src="media/unicornly.png"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/Unicornly/unicornly/master/media/unicornly.png"></p>
 
 # Unicornly
 
@@ -29,6 +29,6 @@ const unicornly = require('unicornly');
 **Unicornly** 🦄  &nbsp; © [MIT License](https://github.com/Unicornly/unicornly/blob/master/LICENSE)
 
 <p align="center">
-	<img src="media/unicornly.png" width="7%" height="7%"><br>
+	<img src="https://raw.githubusercontent.com/Unicornly/unicornly/master/media/unicornly.png" width="7%" height="7%"><br>
 	<small>2018 © <b>Unicornly</b></small>
 </p>
