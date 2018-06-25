@@ -2,6 +2,7 @@
   "name": "unicornly",
   "version": "0.0.1",
   "description": "🦄  Magic really exist",
+  "homepage": "https://unicornly.js.org",
   "main": "unicornly.js",
   "scripts": {
     "test": "xo"
